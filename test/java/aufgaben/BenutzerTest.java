@@ -12,7 +12,7 @@ class BenutzerTest {
     @Test
     void kalkuliereZeit() {
 
-        List sports = new ArrayList<Sport>();
+        List<Sport> sports = new ArrayList<>();
         Fussball f = new Fussball();
         sports.add(f);
 
@@ -34,7 +34,7 @@ class BenutzerTest {
     @Test
     void kalkuliereDurchschnittszeit() {
 
-        List sports = new ArrayList<Sport>();
+        List<Sport> sports = new ArrayList<>();
         Fussball f = new Fussball();
         Basketball b = new Basketball();
 

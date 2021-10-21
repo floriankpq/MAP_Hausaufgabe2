@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        List<Sport> favourites = new ArrayList<Sport>();
+        List<Sport> favourites = new ArrayList<>();
 	    Benutzer user = new Benutzer("Andrei", "Dan", favourites);
 
         Basketball baschet = new Basketball();
